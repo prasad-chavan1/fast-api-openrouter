@@ -19,7 +19,7 @@ def test_project():
     
     # Set up the app with real configuration
     app.state.config = {
-        'openrouter_api_key': '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',
+        'openrouter_api_key': 'sk-or-v1-e3019bc8d76b4b793486650be79358fgetyourownkeybrooc604f96d',
         'site_url': 'http://localhost:8000',
         'site_name': 'FastAPI OpenRouter Proxy',
         'environment': 'test'
@@ -107,4 +107,5 @@ def test_project():
     print("\n🚀 Project is ready for production!")
 
 if __name__ == "__main__":
+
     test_project()
